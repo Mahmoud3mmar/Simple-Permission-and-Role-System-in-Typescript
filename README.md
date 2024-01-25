@@ -49,6 +49,7 @@ You are tasked with enhancing the security of a blogging platform by implementin
 ## Authentication and Authorization Flow:
 
 - The system uses JWT (JSON Web Token) for authentication.
+- Input Validation:Joi can be used to validate incoming data, such as user input from forms or requests. 
 - Users must be authenticated to access any API endpoint.
 - Roles are assigned to users during registration or based on the application's business logic.
 - Authorization middleware checks the user's role and permissions before allowing access to specific endpoints.
